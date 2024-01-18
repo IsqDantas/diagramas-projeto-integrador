@@ -20,4 +20,4 @@ Sapere is a project developed by three students from IFRN Campus Natal - Zona-No
 
 - Davi Lucas (@DaGitFella) - frontend
 - Isaque Dantas (@IsqDantas) - backend and database
-- Lucas Henrique (@alphaofc) - design
+- Lucas Henrique (@lucas-ofc) - design
