@@ -24,7 +24,3 @@ INSERT INTO user (first_name, last_name, email, password, role)
 VALUES ('Linus', 'Torvalds', 'linux@linux.com', '123', 'tutor');
 INSERT INTO tutor (instagram_account, discord_account, telegram_account, user_id)
 VALUES ('linus_torvalds', 'linus', 'linus', (SELECT MAX(id) FROM user));
-
-
-
-

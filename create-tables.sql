@@ -28,7 +28,14 @@ CREATE table tutor
     foreign key (user_id) references user (id)
 );
 
-CREATE table disciplina (
+CREATE table subject (
     id int auto_increment primary key not null,
-    nome varchar(60)
+    name varchar(60)
+);
+
+CREATE table student_pays_subject (
+    student_id int not null,
+    subject_id int not null,
+    foreign key (student_id) references student (id),
+    foreign key (subject_id) references subject (id)
 );
